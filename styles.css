@@ -22,27 +22,70 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: var(--Very-dark-blue-main-background);
+  padding: 2rem;
 }
 
 .stats-card {
-  margin: 5rem;
-  width: 50rem;
+  margin: 7rem;
+  max-width: 50rem;
   display: flex;
+  flex-wrap: wrap-reverse;
   background-color: var(--Dark-desaturated-blue-card-background);
   color: white;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
 }
 
 .stats-card .img {
-  background: url(images/image-header-desktop.jpg);
+  width: 50%;
+  background-color: var(--Soft-violet-accent);
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.stats-card .img img {
+  height: 100%;
+  width: 100%;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
 }
 
 .stats-card .text {
-  padding: 40px;
+  padding: 30px 60px 40px 40px;
   width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .stats-card {
+    width: 100%;
+  }
+  .stats-card .text,
+  .stats-card .img {
+    width: 100%;
+  }
+  .stats-card .text {
+    padding: 1rem;
+  }
+  .stats-card .img {
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 0;
+  }
+  .stats-card .numbers {
+    flex-direction: column;
+  }
+  .stats-card .numbers .number {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
 }
 
 .stats-card .text h1 {
   margin: 1.3rem 0;
+  font-weight: 700;
+  font-size: 28px;
 }
 
 .stats-card .text h1,
@@ -64,6 +107,11 @@ body {
 .stats-card .text .numbers {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.stats-card .numbers h2 {
+  margin-bottom: 0.5rem;
 }
 
 .stats-card .text .numbers h3 {
@@ -77,8 +125,14 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: var(--White-main-heading-stats);
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Soft-violet-accent);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
 }
