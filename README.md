@@ -1,6 +1,6 @@
 # Frontend Mentor - Stats Preview Card Component Solution
 
-This is a solution to the [stats preview card component challenge on frontend mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [stats preview card component challenge on frontend mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -19,7 +19,7 @@ This is a solution to the [stats preview card component challenge on frontend me
 
 ### Links
 
-- Solution URL: [Stats Preview Card](https://www.frontendmentor.io/solutions/order-summary-card-component-SyaESCNB9)
+- Solution URL: [Stats Preview Card](https://www.frontendmentor.io/solutions/stats-preview-card-component-H1CdEr0r5)
 
 ## My process
 
